@@ -1,0 +1,495 @@
+/*
+    Font size:
+    Font color:
+    Font style:
+*/
+
+.wrapper {
+  min-height: 100vh;
+  font-family: "Helvetica Neue", serif;
+  font-weight: 300;
+  color: rgb(6, 6, 6);
+  position: relative;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  font-size: 38px;
+  font-weight: 100;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section:nth-child(1) {
+  background: rgba(255, 255, 255, 0);
+}
+
+section:nth-child(2) {
+  background: rgba(255, 255, 255, 0);
+}
+
+section:nth-child(3) {
+  background: #eee;
+}
+
+.section1/*:nth-child(4)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section2/*:nth-child(5)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section3/*:nth-child(6)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section4/*:nth-child(7)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section5/*:nth-child(8)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section6/*:nth-child(9)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section7/*:nth-child(10)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section8/*:nth-child(11)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section9/*:nth-child(12)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.section10/*:nth-child(13)*/ {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.newCTEXT {
+  background-color: #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.nav__wrapper {
+  position: fixed;
+  height: 100%;
+  padding: 0px 0px 100px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  transition: 0.5s;
+}
+
+.nav {
+  margin: 0 0 100px 30px;
+}
+
+.nav__counter {
+  font-size: 24px;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.nav__title {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 0.25em;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.nav__body {
+  font-weight: 100;
+  font-size: 18px;
+  font-size: 18px;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: height 0.3s ease-out, opacity 0.2s ease-out;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.nav li {
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  margin-bottom: 1em;
+}
+
+.nav li:after {
+  content: "";
+  display: block;
+  border-left: 2px solid rgb(6, 6, 6);
+  border-top: 2px solid rgb(6, 6, 6);
+  height: 250px;
+  width: 20px;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.nav li a {
+  display: block;
+  padding: 0;
+  color: rgb(6, 6, 6);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+  padding-left: 1em;
+}
+
+.nav li a:focus {
+  background-color: transparent;
+}
+
+.nav li.active {
+  pointer-events: none;
+  padding-left: 1em;
+}
+
+.nav li.active:after {
+  width: 35px;
+  height: 400px;
+  top: 35px;
+}
+
+.nav li.active .nav__counter {
+  font-size: 48px;
+}
+
+.nav li.active .nav__title {
+  height: 40px;
+  opacity: 1;
+  overflow: visible;
+}
+
+.nav li.active .nav__body {
+  height: 100px;
+  opacity: 1;
+  overflow: visible;
+}
+/*# sourceMappingURL=styles.css.map */
+
+* {
+  font-family: "Montserrat", san-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.clock-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.newCTEXT span:before {
+  content: "";
+  animation: animate infinite 7s;
+}
+
+@keyframes animate {
+  0% {
+    content: "MINUTE";
+  }
+  20% {
+    content: "HOUR";
+  }
+  40% {
+    content: "DAY";
+  }
+  60% {
+    content: "WEEK";
+  }
+  80% {
+    content: "MONTH";
+  }
+  100% {
+    content: "YEAR";
+  }
+}
+
+.digital-clock {
+  font-size: 0;
+}
+
+.digital-clock > div {
+  display: block;
+  margin: 0 15px;
+}
+
+.digital-clock > div > span {
+  display: inline-block;
+  width: 70px;
+  margin: 0 2px;
+}
+
+.digital-clock > div > span,
+.digital-clock > div::after {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2),
+    -3px -3px 10px rgba(255, 255, 255, 1);
+}
+
+#day-1 {
+  color: black;
+  font-size: 120px;
+  text-decoration: underline;
+}
+#hour-1 {
+  color: black;
+}
+#hour-2 {
+  color: black;
+}
+#minute-1 {
+  color: black;
+}
+#minute-2 {
+  color: black;
+}
+#second-1 {
+  color: black;
+}
+#second-2 {
+  color: black;
+}
+.digital-clock > div.hour::after,
+.digital-clock > div.minute::after {
+  content: ":";
+  color: black;
+  position: absolute;
+}
+
+.bounce {
+  color: black;
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  margin-top: -25px;
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 5px;
+  }
+  25%,
+  75% {
+    bottom: 15px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.digital-clock {
+  font-size: 0;
+}
+
+.digital-clock > div {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.digital-clock > div > span {
+  display: inline-block;
+  width: 70px;
+  margin: 0 2px;
+}
+
+.digital-clock > div > span,
+.digital-clock > div::after {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2),
+    -3px -3px 10px rgba(255, 255, 255, 1);
+}
+
+.digital-clock > div.hour::after,
+.digital-clock > div.minute::after {
+  content: ":";
+  position: absolute;
+}
+
+.color-change {
+  background-color: #1b1b1b !important;
+  transition: background-color 1s ease;
+}
+.color-change2 {
+  background-color: #1b1b1b !important;
+  transition: background-color 1s ease;
+}
+
+.newCTEXT {
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.newCTEXT span {
+  font-size: 10rem;
+}
+
+.newCTEXT h2 {
+  font-size: 10rem;
+  color: #eee;
+}
+
+#section-intro-0 {
+  background-image: url("../img/covid-19-MIT.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  background-attachment: fixed;
+  background-color: white;
+  width: 100%;
+  left: 0;
+}
+
+.hero-text {
+  left: 0;
+  text-align: left;
+  top: 0;
+}
+
+.hero-text {
+  background: url("../img/landing-text.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.section > strong {
+  display: inline;
+}
+
+#section10 {
+  background: #eee;
+  padding-left: 28%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+#section-intro-2 {
+  background: white;
+  background-image: url(../img/days1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section-intro-3 {
+  background: white;
+  background-image: url(../img/happened-so-far.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section-intro-1 {
+  background: white;
+  background-image: url(../img/opening-text-time.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
