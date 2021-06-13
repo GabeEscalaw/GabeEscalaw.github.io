@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div id="logo">
+        <h1>THE <br> MET</h1>
+    </div>
+    
+    <button class="w3-button w3-xxlarge w3-animate-left" id="hamburger" onclick="w3_open()">&#9776;</button>
+    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"onclick="w3_close()">Close &times;</button>
+        <label class="container side w3-bar-item">Highlights Only <input type="checkbox" id="isHighlight" onclick="isHighlight()">
+        </label>
+        <a class="departments w3-bar-item"><strong>DEPARTMENTS</strong></a>
+        <div id="deptChoices">
+            <button  class="dept" id='1' onclick="departmentFilter('American Decorative Arts')">American Decorative Arts</button>
+
+            <button class="dept" id='3' onclick="departmentFilter('Ancient Near Eastern Art')">Ancient Near Eastern Art</button>
+
+            <button class="dept" id='4' onclick="departmentFilter('Arms and Armor')">Arms and Armor</button>
+
+            <button class="dept" id='5' onclick="departmentFilter('Arts of Africa, Oceania, and the Americas')">Arts of Africa, Oceania, and the Americas</button>
+
+            <button class="dept" id='6' onclick="departmentFilter('Asian Art')">Asian Art</button>
+
+            <button class="dept" id='7' onclick="departmentFilter('The Cloisters')">The Cloisters</button>
+
+            <button class="dept" id='8' onclick="departmentFilter('The Costume Institute')">The Costume Institute</button>
+
+            <button class="dept" id='9' onclick="departmentFilter('Drawings and Prints')">Drawings and Prints</button>
+
+            <button class="dept" id='10' onclick="departmentFilter('Egyptian Art')">Egyptian Art</button>
+
+            <button class="dept" id='11' onclick="departmentFilter('European Paintings')">European Paintings</button>
+
+            <button class="dept" id='12' onclick="departmentFilter('European Sculpture and Decorative Arts')">European Sculpture and Decorative Arts</button>
+
+            <button class="dept" id='13' onclick="departmentFilter('Greek and Roman Art')">American Decorative Arts</button>
+
+            <button class="dept" id='14' onclick="departmentFilter('Islamic Art')">Islamic Art</button>
+
+            <button class="dept" id='15' onclick="departmentFilter('The Robert Lehman Collection')">The Robert Lehman Collection</button>
+
+            <button class="dept" id='16' onclick="departmentFilter('The Libraries')">The Libraries</button>
+
+            <button class="dept" id='17' onclick="departmentFilter('Medieval Art')">Medieval Art</button>
+
+            <button class="dept" id='18' onclick="departmentFilter('Musical Instruments')">Musical Instruments</button>
+
+            <button class="dept" id='19' onclick="departmentFilter('Photographs')">Photographs</button>
+
+            <button class="dept" id='21' onclick="departmentFilter('Modern Art')">Modern Art</button>
+            <!-- <input type="checkbox" id="toggle" class="visually-hidden"> -->
+        </div>
+
+    </div>
+    
+    <div class="modal">
+        <div class="modal-content w3-animate-zoom ">
+            <span class="close">&times;</span>
+            
+        </div>
+    </div>    
+
+    <div id="art-gallery-container">
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
