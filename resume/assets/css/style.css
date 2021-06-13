@@ -1116,7 +1116,7 @@ img{
   .skills__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
+  /*.contact__container, REMOVE TAG */
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1359,3 +1359,14 @@ img{
 .project{
   display: none;
 }
+
+.contact__form{
+  display: none;
+}
+
+.contact__details{
+  width: max-content;
+  margin: auto;
+}
+
+/* also don't forget REMOVE TAG above */
